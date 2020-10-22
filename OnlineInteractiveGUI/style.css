@@ -1,0 +1,16 @@
+#video {
+  display: block;
+  width: 320px;
+  height: 240px;
+  background-color: #ccc;
+  background-image: url("//i.ytimg.com/vi/2EfHtzauHcM/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 2px solid blue;
+}
+
+#video.active {
+  background-color: white;
+  border: 2px solid #eee;
+}
